@@ -1,30 +1,30 @@
-# Türk Discord Bot Küfür Filtre Bypass Aracı
+# 🛡️ Türk Discord Bot Küfür Filtre Bypass Aracı
 
 Bu araç, Discord botlarının küfür/yasaklı kelime filtrelerini bypass etmek için tasarlanmıştır. Latin alfabesindeki karakterleri görsel olarak benzer Kiril karakterleriyle değiştirir.
 
-## Desteklenen Bot Filtreleri
+## 🤖 Desteklenen Bot Filtreleri
 
 Aşağıdaki botların filtrelerinde test edilmiştir:
-- Aether Bot
-- Chaos Bot
-- Guard Bot
-- ModernBot
-- ErensiBot
-- Ve diğer genel moderasyon botları
+- ⭐ Aether Bot
+- 🌟 Chaos Bot
+- 💫 Guard Bot
+- ✨ ModernBot
+- 🌠 ErensiBot
+- 🤖 Ve diğer genel moderasyon botları
 
-## Nasıl Çalışır?
+## 🔧 Nasıl Çalışır?
 
 Program, yasaklı kelimelerdeki Latin karakterleri (örn: a, e, i, o, u) görsel olarak benzer Kiril karakterleriyle (а, е, і, о, ц) değiştirir. Bu sayede:
-- Botlar farklı alfabeden karakterleri tanımaz
-- Mesaj görsel olarak neredeyse aynı görünür
-- Filtre sistemleri atlatılmış olur
+- 🔍 Botlar farklı alfabeden karakterleri tanımaz
+- 👀 Mesaj görsel olarak neredeyse aynı görünür
+- ✅ Filtre sistemleri atlatılmış olur
 
-## Kullanım Örneği
+## 💡 Kullanım Örneği
 
 Original metin: `merhaba` veya `artik yarraklari sallayabiliriz demi`
 Dönüştürülmüş: `меrһаbа` veya `аrтіk уаrrаklаrі ѕаllауаbіlіrіz dеmі`
 
-## Detaylı Kurulum
+## ⚙️ Detaylı Kurulum
 
 1. Node.js'i bilgisayarınıza kurun (https://nodejs.org)
 2. Bu projeyi ZIP olarak indirin
@@ -39,46 +39,48 @@ cd kufur-bypass
 node index.js
 ```
 
-## Desteklenen Karakterler
+## 🔄 Desteklenen Karakterler
 
 Aşağıdaki karakterler otomatik olarak dönüştürülür:
-- a → а
-- e → е
-- i → і
-- o → о
-- u → ц
-- s → ѕ
+- a ➜ а
+- e ➜ е
+- i ➜ і
+- o ➜ о
+- u ➜ ц
+- s ➜ ѕ
 (ve dahası...)
 
-## Önemli Uyarılar
+## ⚠️ Önemli Uyarılar
 
-⚠️ Bu araç eğitim ve test amaçlıdır:
-- Kötüye kullanım kullanıcının sorumluluğundadır
-- Discord Topluluk Kurallarını ihlal edebilir
-- Sunuculardan yasaklanmanıza sebep olabilir
-- Sadece test ortamlarında kullanın
+Bu araç eğitim ve test amaçlıdır:
+- ❌ Kötüye kullanım kullanıcının sorumluluğundadır
+- ⚠️ Discord Topluluk Kurallarını ihlal edebilir
+- 🚫 Sunuculardan yasaklanmanıza sebep olabilir
+- 🔬 Sadece test ortamlarında kullanın
 
-## Güncelleme Notları
+## 📝 Güncelleme Notları
 
 v1.0.0
-- İlk sürüm
-- 25+ karakter desteği
-- Konsol arayüzü
+- 🎉 İlk sürüm
+- ✨ 25+ karakter desteği
+- 💻 Konsol arayüzü
 
-## Planlanan Özellikler
+## 🚀 Planlanan Özellikler
 
-- GUI arayüzü
-- Daha fazla karakter desteği
+- 🖥️ GUI arayüzü
+- 📚 Daha fazla karakter desteği
+- 🔄 Otomatik güncelleme sistemi
 
-## Teknik Detaylar
+## 🛠️ Teknik Detaylar
 
-- Node.js ile geliştirilmiştir
-- Readline kütüphanesi kullanılmıştır
-- Karakter haritası JSON formatında tutulur
-- Anında dönüşüm sağlar
+- 📦 Node.js ile geliştirilmiştir
+- ⌨️ Readline kütüphanesi kullanılmıştır
+- 📄 Karakter haritası JSON formatında tutulur
+- ⚡ Anında dönüşüm sağlar
 
-## İletişim
+## 📞 İletişim
 
 Hata bildirimi ve öneriler için:
-- GitHub Issues
-- Discord: [alird1221]
+- 📮 GitHub Issues
+- 💭 Discord: `alird1221`
+- 💭 Helper: `.mentalite.` on Discord
