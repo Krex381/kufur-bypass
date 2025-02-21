@@ -69,8 +69,6 @@ v1.0.0
 
 - GUI arayüzü
 - Daha fazla karakter desteği
-- Otomatik kelime önerileri
-- Discord bot entegrasyonu
 
 ## Teknik Detaylar
 
