@@ -12,43 +12,66 @@ Aşağıdaki botların filtrelerinde test edilmiştir:
 - 🌠 ErensiBot
 - 🤖 Ve diğer genel moderasyon botları
 
+## 🆕 Yeni Özellikler (v2.0.0)
+
+- 🖥️ Electron tabanlı modern kullanıcı arayüzü
+- 🎨 Koyu/Açık tema desteği
+- 📋 Otomatik kopyalama özelliği
+- 💾 Son dönüşümleri kaydetme
+- 🔄 Gerçek zamanlı dönüşüm
+- 🎯 Gelişmiş karakter eşleştirme
+- 🚀 Daha hızlı performans
+
 ## 🔧 Nasıl Çalışır?
 
-Program, yasaklı kelimelerdeki Latin karakterleri (örn: a, e, i, o, u) görsel olarak benzer Kiril karakterleriyle (а, е, і, о, ц) değiştirir. Bu sayede:
-- 🔍 Botlar farklı alfabeden karakterleri tanımaz
-- 👀 Mesaj görsel olarak neredeyse aynı görünür
-- ✅ Filtre sistemleri atlatılmış olur
+Program, yasaklı kelimelerdeki Latin karakterleri görsel olarak benzer Kiril ve Unicode karakterleriyle değiştirir:
+- 🔍 35+ karakter desteği
+- 👀 Görsel olarak ayırt edilemez dönüşüm
+- ✅ Gelişmiş filtre bypass sistemi
+- 🎮 Kullanıcı dostu arayüz
 
-## 💡 Kullanım Örneği
+## 💻 Kurulum
 
-Original metin: `merhaba` veya `artik yarraklari sallayabiliriz demi`
-Dönüştürülmüş: `меrһаbа` veya `аrтіk уаrrаklаrі ѕаllауаbіlіrіz dеmі`
+1. Releases bölümünden son sürümü indirin
+2. Windows için portable .exe dosyasını çalıştırın
+3. (İsteğe bağlı) Masaüstü kısayolu oluşturun
 
-## ⚙️ Detaylı Kurulum
+## ⚡ Hızlı Kullanım
 
-1. Node.js'i bilgisayarınıza kurun (https://nodejs.org)
-2. Bu projeyi ZIP olarak indirin
-3. ZIP dosyasını çıkartın
-4. Komut İstemi (CMD) veya Terminal'i açın
-5. Proje klasörüne gidin:
-```bash
-cd kufur-bypass
-```
-6. Programı çalıştırın:
-```bash
-node index.js
-```
+1. Programı başlatın
+2. Metninizi giriş alanına yazın veya yapıştırın
+3. Otomatik olarak dönüştürülmüş metni alın
+4. Tek tıkla kopyalayın
 
-## 🔄 Desteklenen Karakterler
+## 📝 Güncelleme Notları
 
-Aşağıdaki karakterler otomatik olarak dönüştürülür:
-- a ➜ а
-- e ➜ е
-- i ➜ і
-- o ➜ о
-- u ➜ ц
-- s ➜ ѕ
-(ve dahası...)
+v2.0.0
+- 🎉 Tamamen yeni arayüz
+- ✨ 35+ karakter desteği
+- 💻 Electron tabanlı uygulama
+- 🌓 Tema desteği
+- 📋 Gelişmiş kopyalama özellikleri
+- 💾 Geçmiş kayıtları
+- ⚡ Performans iyileştirmeleri
+
+v1.0.0
+- 🎯 İlk sürüm
+- ✨ 25+ karakter desteği
+- 💻 Konsol arayüzü
+
+## 🎯 Gelecek Özellikler
+
+- 📱 Mobil uygulama
+- 🔒 Şifreleme desteği
+- 🌍 Çoklu dil desteği
+- 🔄 Otomatik güncelleme sistemi
+
+## 🛠️ Teknik Özellikler
+
+- 📦 Electron & Node.js altyapısı
+- 🎨 Modern UI/UX tasarımı
+- 🔒 Gelişmiş kod şifreleme
+- ⚡ Optimize edilmiş performans
 
 ## ⚠️ Önemli Uyarılar
 
@@ -58,29 +81,8 @@ Bu araç eğitim ve test amaçlıdır:
 - 🚫 Sunuculardan yasaklanmanıza sebep olabilir
 - 🔬 Sadece test ortamlarında kullanın
 
-## 📝 Güncelleme Notları
-
-v1.0.0
-- 🎉 İlk sürüm
-- ✨ 25+ karakter desteği
-- 💻 Konsol arayüzü
-
-## 🚀 Planlanan Özellikler
-
-- 🖥️ GUI arayüzü
-- 📚 Daha fazla karakter desteği
-- 🔄 Otomatik güncelleme sistemi
-
-## 🛠️ Teknik Detaylar
-
-- 📦 Node.js ile geliştirilmiştir
-- ⌨️ Readline kütüphanesi kullanılmıştır
-- 📄 Karakter haritası JSON formatında tutulur
-- ⚡ Anında dönüşüm sağlar
-
 ## 📞 İletişim
 
 Hata bildirimi ve öneriler için:
 - 📮 GitHub Issues
-- 💭 Discord: `alird1221`
-- 💭 Helper: `.mentalite.` on Discord
+- 💭 Discord: `alird1221` veya `.mentalite.`

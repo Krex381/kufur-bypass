@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Küfür Bypass Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="titlebar">
+        <div class="window-controls">
+            <button class="window-control-button" id="minimizeBtn">─</button>
+            <button class="window-control-button" id="maximizeBtn">□</button>
+            <button class="window-control-button" id="closeBtn">✕</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h1>🛡️ Küfür Bypass Tool</h1>
+        
+        <div class="message" id="messageBox"></div>
+        
+        <div class="input-group">
+            <textarea id="inputText" placeholder="Dönüştürülecek metni buraya girin..."></textarea>
+            
+            <button id="convertBtn">
+                <span class="loader" id="loader"></span>
+                <span class="btn-text">Dönüştür</span>
+            </button>
+            
+            <textarea id="outputText" readonly placeholder="Dönüştürülmüş metin burada görünecek..."></textarea>
+        </div>
+
+        <div class="actions">
+            <button id="copyBtn">
+                <span class="btn-text">📋 Kopyala</span>
+            </button>
+            <button id="clearBtn">
+                <span class="btn-text">🗑️ Temizle</span>
+            </button>
+        </div>
+
+        <div class="status-bar">
+            <span id="charCount">Karakter: 0</span>
+            <span id="status"></span>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+    <script src="windowControls.js"></script>
+</body>
+</html>

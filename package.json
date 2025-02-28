@@ -1,0 +1,51 @@
+{
+  "name": "kufur-bypass",
+  "version": "1.0.0",
+  "description": "Discord bot küfür filtrelerini bypass etmek için tasarlanmış bir araç",
+  "author": {
+    "name": "Krex"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "clean": "rimraf dist release",
+    "encrypt": "node encrypt.js",
+    "prebuild": "npm run clean && npm run encrypt",
+    "build": "electron-builder --win portable",
+    "build:win": "npm run clean && npm run encrypt && electron-builder --win portable",
+    "build:mac": "electron-builder --mac",
+    "build:linux": "electron-builder --linux"
+  },
+  "build": {
+    "appId": "com.kufurbypass.app",
+    "productName": "Küfür Bypass",
+    "directories": {
+      "output": "release",
+      "app": "dist"
+    },
+    "files": [
+      "**/*",
+      "assets/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico"
+    },
+    "extraResources": [
+      "assets/**"
+    ]
+  },
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.13.3",
+    "js-confuser": "^1.7.1",
+    "rimraf": "^5.0.10"
+  }
+}
