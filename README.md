@@ -85,4 +85,4 @@ Bu araç eğitim ve test amaçlıdır:
 
 Hata bildirimi ve öneriler için:
 - 📮 GitHub Issues
-- 💭 Discord: `alird1221` veya `.mentalite.`
+- 💭 Discord: `krexdll` veya `.mentalite.`
